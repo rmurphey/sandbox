@@ -1,2 +1,0 @@
-Trendy bangs.
-
