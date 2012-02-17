@@ -9,24 +9,26 @@ toura.data.local = {
     "sharingUrl": "http://toura.com",
     "sharingText": "${name}",
     "aboutEnabled": true,
-    "name": "todos",
+    "name": "todos2",
     "theme": {
       "name": "default"
     },
     "os": [
-      "ios"
+      "ios",
+      "android"
     ],
     "type": [
+      "tablet",
       "phone"
     ],
-    "jquery": true,
+    "jquery": false,
     "app_id": {
       "android": {
-        "phone": "com.toura.app2_todos"
+        "phone": "com.toura.app2_fake"
       },
       "ios": {
-        "phone": "com.toura.app2.todos.phone",
-        "tablet": "com.toura.app2.todos.tablet"
+        "phone": "com.toura.app2.fake.phone",
+        "tablet": "com.toura.app2.fake.tablet"
       }
     },
     "urban_airship": {
@@ -55,7 +57,7 @@ toura.data.local = {
     "ota": {
       "enabled": false
     },
-    "id": "todos",
+    "id": "todos2",
     "facebookApiKey": null,
     "twitterCustomerKey": null,
     "twitterCustomerSecret": null
